@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 
 /* reset.css */
 *,
@@ -53,7 +58,6 @@ background: linear-gradient(90deg, rgba(10,25,47,1) 0%, rgba(1,1,99,1) 50%, rgba
 
 
 /*Navbar*/
-/* Animação de fade-in com deslizamento */
 @keyframes navbarAppear {
   0% {
     opacity: 0;
@@ -80,7 +84,6 @@ background: linear-gradient(90deg, rgba(10,25,47,1) 0%, rgba(1,1,99,1) 50%, rgba
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-
   animation: navbarAppear 0.8s ease-out;
 }
 
@@ -115,20 +118,25 @@ background: linear-gradient(90deg, rgba(10,25,47,1) 0%, rgba(1,1,99,1) 50%, rgba
   animation: colorChange 1s forwards;
 }
 
-
-
-/*Footer*/
-/* Footer fixado no canto inferior esquerdo */
 .icons-footer {
   position: fixed;
   bottom: 20px;
-  left: 20px;
+  left: -100px;
   display: flex;
   flex-direction: column;
   gap: 15px;
   z-index: 1000;
+  animation: footerAppear 0.8s ease-out forwards;
 }
 
+@keyframes footerAppear {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 20px;
+  }
+}
 .navImage {
   width: 40px;
   height: auto;
@@ -139,7 +147,17 @@ background: linear-gradient(90deg, rgba(10,25,47,1) 0%, rgba(1,1,99,1) 50%, rgba
   transform: scale(1.2);
 }
 
-/* Tooltip oculto por padrão */
+.navImageRT{
+  width: 27px;
+  margin: auto;
+  transition: transform 0.3s ease;
+}
+
+.navImageRT:hover{
+transform: scale(1.2);
+}
+
+
 .tooltip {
   visibility: hidden;
   opacity: 0;
@@ -169,4 +187,67 @@ background: linear-gradient(90deg, rgba(10,25,47,1) 0%, rgba(1,1,99,1) 50%, rgba
 }
 
 
+/*Home Page*/
+.presentation {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  line-height: 1.5;
+  padding: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.8s forwards ease-out;
+  display: flex;
+  height: 70vh;
+}
 
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.myName {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 17px;
+  color: aqua;
+}
+
+.nameandDev {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.RookTechPresentation {
+  text-decoration: none;
+  color: aqua;
+}
+
+.RookTechPresentation:hover {
+  color: white; 
+}

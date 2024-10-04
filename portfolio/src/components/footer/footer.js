@@ -8,13 +8,13 @@ function footer() {
     <footer>
       <div className="icons-footer">
         <a
-          href="https://www.linkedin.com/in/seu-usuario"
+          href="linkedin.com/in/hugo-rizzo-4847a91a8"
           target="_blank"
           rel="noopener noreferrer"
           className="linkedin-link"
         >
           <img className="navImage" src={linkedinImg} alt="LinkedIn" />
-          <span className="tooltip">Visite meu LinkedIn!</span>
+          <span className="tooltip">LinkedIn!</span>
         </a>
 
         <a
@@ -24,17 +24,17 @@ function footer() {
           className="github-link"
         >
           <img className="navImage" src={gitHubimg} alt="GitHub" />
-          <span className="tooltip">Visite meu GitHub!</span>
+          <span className="tooltip">GitHub!</span>
         </a>
 
         <a
-          href="https://www.empresa.com"
+          href="https://rook-tech.com"
           target="_blank"
           rel="noopener noreferrer"
           className="empresa-link"
         >
-          <img className="navImage" src={RookTechIcon} alt="RookTechIcon" />
-          <span className="tooltip">Visite a empresa!</span>
+          <img className="navImageRT" src={RookTechIcon} alt="RookTechIcon" />
+          <span className="tooltip">Rook Tech!</span>
         </a>
       </div>
     </footer>
