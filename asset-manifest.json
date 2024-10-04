@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/PortfolioPrincipal/static/css/main.f68154d7.css",
-    "main.js": "/PortfolioPrincipal/static/js/main.d1ec0c7e.js",
+    "main.js": "/PortfolioPrincipal/static/js/main.4aec2fb7.js",
     "static/js/453.1407b060.chunk.js": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js",
     "static/media/HR-white.png": "/PortfolioPrincipal/static/media/HR-white.d1e9bbbeb078d5979cd3.png",
     "static/media/RookTechIcon.png": "/PortfolioPrincipal/static/media/RookTechIcon.2604772f8673a5853cff.png",
     "static/media/github.png": "/PortfolioPrincipal/static/media/github.f11021803f68852df283.png",
     "index.html": "/PortfolioPrincipal/index.html",
     "main.f68154d7.css.map": "/PortfolioPrincipal/static/css/main.f68154d7.css.map",
-    "main.d1ec0c7e.js.map": "/PortfolioPrincipal/static/js/main.d1ec0c7e.js.map",
+    "main.4aec2fb7.js.map": "/PortfolioPrincipal/static/js/main.4aec2fb7.js.map",
     "453.1407b060.chunk.js.map": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f68154d7.css",
-    "static/js/main.d1ec0c7e.js"
+    "static/js/main.4aec2fb7.js"
   ]
 }
