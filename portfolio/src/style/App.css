@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* reset.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/*Global CSS*/
+body{
+background: rgb(10,25,47);
+background: linear-gradient(90deg, rgba(10,25,47,1) 0%, rgba(1,1,99,1) 50%, rgba(10,25,47,1) 100%);
+}
+
+
+
+/*Navbar*/
+/* Animação de fade-in com deslizamento */
+@keyframes navbarAppear {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*Navbar*/
+.logo{
+  padding-top: 1.5rem;
+  width: 55px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.3rem 2rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  animation: navbarAppear 0.8s ease-out;
+}
+
+.nav-links{
+  display: flex;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-left: 1rem;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #F4EDED;
+  }
+  100% {
+    color: aqua;
+  }
+}
+
+.nav-links a {
+  color: #F4EDED;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 0.5rem 1rem;
+  transition: background-color 1s ease;
+}
+
+.nav-links a:hover {
+  animation: colorChange 1s forwards;
+}
+
+
+
+/*Footer*/
+/* Footer fixado no canto inferior esquerdo */
+.icons-footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.navImage {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.navImage:hover {
+  transform: scale(1.2);
+}
+
+/* Tooltip oculto por padrão */
+.tooltip {
+  visibility: hidden;
+  opacity: 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  left: 50px;
+  bottom: 50%;
+  transform: translateY(50%);
+  white-space: nowrap;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Exibe o tooltip ao passar o mouse sobre o ícone */
+.icons-footer a:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Customizações adicionais (opcional) */
+.linkedin-link, .github-link, .empresa-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+
