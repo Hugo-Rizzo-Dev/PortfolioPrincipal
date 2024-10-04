@@ -156,13 +156,11 @@ background: linear-gradient(90deg, rgba(10,25,47,1) 0%, rgba(1,1,99,1) 50%, rgba
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-/* Exibe o tooltip ao passar o mouse sobre o ícone */
 .icons-footer a:hover .tooltip {
   visibility: visible;
   opacity: 1;
 }
 
-/* Customizações adicionais (opcional) */
 .linkedin-link, .github-link, .empresa-link {
   position: relative;
   display: inline-flex;
