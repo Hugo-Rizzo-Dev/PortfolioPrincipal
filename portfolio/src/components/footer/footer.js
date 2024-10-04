@@ -8,7 +8,7 @@ function footer() {
     <footer>
       <div className="icons-footer">
         <a
-          href="linkedin.com/in/hugo-rizzo-4847a91a8"
+          href="https://www.linkedin.com/in/hugo-rizzo-4847a91a8/"
           target="_blank"
           rel="noopener noreferrer"
           className="linkedin-link"
