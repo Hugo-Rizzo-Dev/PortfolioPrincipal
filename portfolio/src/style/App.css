@@ -262,10 +262,13 @@ p {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9; /* Cor de fundo suave */
 }
 
 .contact-container h2 {
   text-align: center;
+  color: #333; /* Cor do texto */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
 }
 
 .contact-container form {
@@ -275,6 +278,7 @@ p {
 
 .contact-container label {
   margin-bottom: 5px;
+  font-weight: bold; /* Negrito para os rótulos */
 }
 
 .contact-container input,
@@ -283,6 +287,14 @@ p {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  transition: border-color 0.3s; /* Animação na borda */
+}
+
+/* Estilo para o estado de foco */
+.contact-container input:focus,
+.contact-container textarea:focus {
+  border-color: #007bff; /* Cor da borda ao focar */
+  outline: none; /* Remove o contorno padrão */
 }
 
 .contact-container button {
@@ -292,8 +304,18 @@ p {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px; /* Aumenta o tamanho da fonte do botão */
+  transition: background-color 0.3s; /* Animação de cor no botão */
 }
 
 .contact-container button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
+/* Mensagens de erro */
+span {
+  color: red; /* Cor das mensagens de erro */
+  font-size: 12px; /* Tamanho da fonte das mensagens de erro */
+  margin-top: -10px; /* Espaçamento negativo acima da mensagem */
+  margin-bottom: 10px; /* Espaçamento abaixo da mensagem */
 }
