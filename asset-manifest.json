@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PortfolioPrincipal/static/css/main.babd5a14.css",
-    "main.js": "/PortfolioPrincipal/static/js/main.cae0366b.js",
+    "main.css": "/PortfolioPrincipal/static/css/main.fdd4a848.css",
+    "main.js": "/PortfolioPrincipal/static/js/main.48cf9cb9.js",
     "static/js/453.1407b060.chunk.js": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js",
     "static/media/github.png": "/PortfolioPrincipal/static/media/github.a2a5f46075431c1099bf.png",
     "static/media/HR-white.png": "/PortfolioPrincipal/static/media/HR-white.d1e9bbbeb078d5979cd3.png",
     "static/media/RookTechIcon.png": "/PortfolioPrincipal/static/media/RookTechIcon.2604772f8673a5853cff.png",
     "index.html": "/PortfolioPrincipal/index.html",
-    "main.babd5a14.css.map": "/PortfolioPrincipal/static/css/main.babd5a14.css.map",
-    "main.cae0366b.js.map": "/PortfolioPrincipal/static/js/main.cae0366b.js.map",
+    "main.fdd4a848.css.map": "/PortfolioPrincipal/static/css/main.fdd4a848.css.map",
+    "main.48cf9cb9.js.map": "/PortfolioPrincipal/static/js/main.48cf9cb9.js.map",
     "453.1407b060.chunk.js.map": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.babd5a14.css",
-    "static/js/main.cae0366b.js"
+    "static/css/main.fdd4a848.css",
+    "static/js/main.48cf9cb9.js"
   ]
 }
