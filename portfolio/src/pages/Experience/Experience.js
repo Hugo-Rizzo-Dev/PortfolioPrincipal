@@ -103,6 +103,22 @@ const Experience = () => {
                         <a href="https://cursos.alura.com.br/certificate/1a3007b4-5b23-426a-b044-df8d60dad66c" target="_blank" rel="noopener noreferrer">View Certificate</a>
                     </div>
                 </div>
+
+                <div className="timeline-item">
+                    <div className="content">
+                        <h2>O básico de Git e GitHub</h2>
+                        <p>Earned on September 2024</p>
+                        <a href="https://app.rocketseat.com.br/certificates/50364482-4ba2-414b-8b23-592ecf66a734" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                    </div>
+                </div>
+
+                <div className="timeline-item">
+                    <div className="content">
+                        <h2>Fundamentos de HTML e CSS</h2>
+                        <p>Earned on December 2024</p>
+                        <a href="https://app.rocketseat.com.br/certificates/52a1152e-ff6a-4469-b6ca-c27a631a1e89" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                    </div>
+                </div>
             </section>
 
             <Footer />
