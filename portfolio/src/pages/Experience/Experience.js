@@ -127,6 +127,13 @@ const Experience = () => {
                         <a href="https://app.rocketseat.com.br/certificates/66d99da6-0ab6-4d86-91a0-18b61e9cdce6" target="_blank" rel="noopener noreferrer">View Certificate</a>
                     </div>
                 </div>
+                <div className="timeline-item">
+                    <div className="content">
+                        <h2>Introdução ao Node.js</h2>
+                        <p>Earned on December 2024</p>
+                        <a href="https://app.rocketseat.com.br/certificates/98d7e4da-6076-45dd-b5f6-adadf3cfdc18" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                    </div>
+                </div>
             </section>
 
             <Footer />
