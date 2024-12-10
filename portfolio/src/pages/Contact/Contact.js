@@ -16,7 +16,6 @@ const Contact = () => {
       reply_to: data.email,
       subject: data.subject,
       message: data.message,
-      birthdate: data.birthdate,
     };
 
     emailjs.send(
@@ -74,16 +73,6 @@ const Contact = () => {
               {...register('subject', { required: true })}
             />
             {errors.subject && <span>Este campo é obrigatório</span>}
-          </div>
-
-          <div>
-            <label htmlFor="birthdate">Data de Nascimento</label>
-            <input
-              id="birthdate"
-              type="date"
-              {...register('birthdate', { required: true })}
-            />
-            {errors.birthdate && <span>Este campo é obrigatório</span>}
           </div>
 
           <div>
