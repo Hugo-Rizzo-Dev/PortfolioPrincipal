@@ -7,26 +7,28 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import img1 from '../../images/HR.png';
+
 const projects = [
   {
-    title: "Valorant",
-    description: "Valorant é um jogo de FPS estratégico em 5v5...",
-    image: "/path-to-image1.jpg",
+    title: "Projeto 1",
+    description: "Descrição do Projeto 1",
+    image: img1,
   },
   {
-    title: "Bloons TD 6",
-    description: "Bloons TD 6 é um jogo de Tower Defense...",
-    image: "/path-to-image2.jpg",
+    title: "Projeto 2",
+    description: "Descrição do Projeto 2",
+    image: img1,
   },
   {
-    title: "Days Gone",
-    description: "Days Gone é um jogo de sobrevivência...",
-    image: "/path-to-image3.jpg",
+    title: "Projeto 3",
+    description: "Descrição do Projeto 3",
+    image: img1,
   },
   {
-    title: "Call of Duty Modern Warfare II",
-    description: "Call of Duty combina modos de história e multiplayer...",
-    image: "/path-to-image4.jpg",
+    title: "Projeto 4",
+    description: "Descrição do Projeto 4",
+    image: img1,
   },
 ];
 
@@ -39,7 +41,7 @@ const Works = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768, // Para telas menores
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         },
@@ -48,7 +50,7 @@ const Works = () => {
   };
 
   return (
-    <main className="works-page">
+    <main className="works-page-wrapper">
       <Navbar />
       <section className="works-section">
         <h2 className="works-title">Meus Projetos</h2>

@@ -593,8 +593,14 @@ span {
 
 
 /* Estilo da página de Works */
-.works-page {
-  background-color: #f9f9f9;
+
+/* Estilos exclusivos para Works */
+.works-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   padding: 20px 0;
 }
 
@@ -610,7 +616,7 @@ span {
 .works-title {
   font-size: 2.5rem;
   margin-bottom: 30px;
-  color: #333;
+  color: #fff;
   font-family: Arial, sans-serif;
 }
 
@@ -623,11 +629,9 @@ span {
 
 /* Cartão de cada projeto */
 .works-card {
-  position: relative;
   border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
 }
 
 .works-card-image {
@@ -637,14 +641,14 @@ span {
   transition: transform 0.3s ease;
 }
 
-/* Overlay branco com detalhes */
+/* Overlay escuro com detalhes */
 .works-card-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -665,13 +669,13 @@ span {
 .works-card-title {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #fff;
 }
 
 /* Descrição do projeto */
 .works-card-description {
   font-size: 1rem;
-  color: #555;
+  color: #ddd;
   line-height: 1.5;
   text-align: center;
   margin: 0;
