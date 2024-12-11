@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/PortfolioPrincipal/static/css/main.c239513f.css",
-    "main.js": "/PortfolioPrincipal/static/js/main.c25771d0.js",
+    "main.css": "/PortfolioPrincipal/static/css/main.912029a0.css",
+    "main.js": "/PortfolioPrincipal/static/js/main.443cf51c.js",
     "static/js/453.1407b060.chunk.js": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js",
+    "static/media/Fokus3.png": "/PortfolioPrincipal/static/media/Fokus3.dfae2e280f302ec98dad.png",
+    "static/media/Fokus2.png": "/PortfolioPrincipal/static/media/Fokus2.f27a603d72149dc455e5.png",
+    "static/media/Fokus1.png": "/PortfolioPrincipal/static/media/Fokus1.092bc4269b3ed61b8728.png",
     "static/media/github.png": "/PortfolioPrincipal/static/media/github.a2a5f46075431c1099bf.png",
     "static/media/HR-white.png": "/PortfolioPrincipal/static/media/HR-white.d1e9bbbeb078d5979cd3.png",
     "static/media/RookTechIcon.png": "/PortfolioPrincipal/static/media/RookTechIcon.2604772f8673a5853cff.png",
@@ -10,12 +13,12 @@
     "static/media/Search1.png": "/PortfolioPrincipal/static/media/Search1.0e5c5d95a39bb1a5276e.png",
     "static/media/Search2.png": "/PortfolioPrincipal/static/media/Search2.afecb3623991395c37c2.png",
     "index.html": "/PortfolioPrincipal/index.html",
-    "main.c239513f.css.map": "/PortfolioPrincipal/static/css/main.c239513f.css.map",
-    "main.c25771d0.js.map": "/PortfolioPrincipal/static/js/main.c25771d0.js.map",
+    "main.912029a0.css.map": "/PortfolioPrincipal/static/css/main.912029a0.css.map",
+    "main.443cf51c.js.map": "/PortfolioPrincipal/static/js/main.443cf51c.js.map",
     "453.1407b060.chunk.js.map": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c239513f.css",
-    "static/js/main.c25771d0.js"
+    "static/css/main.912029a0.css",
+    "static/js/main.443cf51c.js"
   ]
 }
