@@ -61,17 +61,17 @@ const Projects = () => {
         {
             id: 1,
             images: [img1S, img2S, img3S],
-            title: "CEP SEARCH",
+            title: <a className='linkProjects' href='https://github.com/Hugo-Rizzo-Dev/search'>CEP SEARCH</a>,
         },
         {
             id: 2,
             images: [img2Sh, img1Sh, img3Sh],
-            title: "SHOPPING LIST",
+            title: <a className='linkProjects' href='https://github.com/Hugo-Rizzo-Dev/listaDeCompras2'>SHOPPING LIST</a>,
         },
         {
             id: 3,
             images: [img1Fk, img2Fk, img3Fk],
-            title: "FOKUS",
+            title: <a className='linkProjects' href='https://github.com/Hugo-Rizzo-Dev/Fokus'>FOKUS</a>,
         },
     ];
 

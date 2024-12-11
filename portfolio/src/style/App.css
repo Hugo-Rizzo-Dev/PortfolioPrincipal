@@ -774,3 +774,8 @@ span {
 .slide-in {
   animation: slideIn 0.5s ease-in-out;
 }
+
+.linkProjects{
+  text-decoration: none;
+  color: black;
+}
