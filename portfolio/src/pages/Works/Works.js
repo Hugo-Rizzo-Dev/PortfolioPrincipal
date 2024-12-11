@@ -2,75 +2,62 @@ import React from 'react';
 import "../../style/App.css";
 import Navbar from "../../components/navbar/navbar.js";
 import Footer from "../../components/footer/footer.js";
-import Slider from "react-slick";
+import img1S from "../../images/Search/Search1.png"
+import img2S from "../../images/Search/Search2.png"
+import img3S from "../../images/Search/Search3.png"
+import img1Sh from "../../images/ShoppingList/Buy1.png"
+import img2Sh from "../../images/ShoppingList/Buy2.png"
+import img3Sh from "../../images/ShoppingList/Buy3.png"
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+const Carousel = ({ images }) => {
+    const [currentIndex, setCurrentIndex] = React.useState(0);
 
-const projects = [
-  {
-    title: "Valorant",
-    description: "Valorant é um jogo de FPS estratégico em 5v5...",
-    image: "/path-to-image1.jpg",
-  },
-  {
-    title: "Bloons TD 6",
-    description: "Bloons TD 6 é um jogo de Tower Defense...",
-    image: "/path-to-image2.jpg",
-  },
-  {
-    title: "Days Gone",
-    description: "Days Gone é um jogo de sobrevivência...",
-    image: "/path-to-image3.jpg",
-  },
-  {
-    title: "Call of Duty Modern Warfare II",
-    description: "Call of Duty combina modos de história e multiplayer...",
-    image: "/path-to-image4.jpg",
-  },
-];
+    const handlePrev = () => {
+        setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+    };
+
+    const handleNext = () => {
+        setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+    };
+
+    return (
+        <div className="carousel">
+            <button className="carousel-button prev" onClick={handlePrev}>&lt;</button>
+            <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} className="carousel-image" />
+            <button className="carousel-button next" onClick={handleNext}>&gt;</button>
+        </div>
+    );
+};
 
 const Works = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 768, // Para telas menores
-        settings: {
-          slidesToShow: 1,
+    const works = [
+        {
+            id: 1,
+            images: [img1S, img2S, img3S],
+            title: "CEP SEARCH",
         },
-      },
-    ],
-  };
+        {
+            id: 2,
+            images: [img2Sh, img1Sh, img3Sh],
+            title: "Shopping List",
+        },
 
-  return (
-    <main className="works-page">
-      <Navbar />
-      <section className="works-section">
-        <h2 className="works-title">Meus Projetos</h2>
-        <Slider {...settings} className="works-slider">
-          {projects.map((project, index) => (
-            <div key={index} className="works-card">
-              <div className="works-card-overlay">
-                <h3 className="works-card-title">{project.title}</h3>
-                <p className="works-card-description">{project.description}</p>
-              </div>
-              <img
-                src={project.image}
-                alt={project.title}
-                className="works-card-image"
-              />
-            </div>
-          ))}
-        </Slider>
-      </section>
-      <Footer />
-    </main>
-  );
+    ];
+
+    return (
+        <main>
+            <Navbar />
+            <section className="works-grid">
+                {works.map((work) => (
+                    <div key={work.id} className="grid-item">
+                        <Carousel images={work.images} />
+                        <h3 className="item-title">{work.title}</h3>
+                    </div>
+                ))}
+            </section>
+            <Footer />
+        </main>
+    );
 };
 
 export default Works;
