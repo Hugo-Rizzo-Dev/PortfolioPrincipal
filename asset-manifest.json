@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/PortfolioPrincipal/static/css/main.fdd4a848.css",
-    "main.js": "/PortfolioPrincipal/static/js/main.1033fdbf.js",
+    "main.css": "/PortfolioPrincipal/static/css/main.c239513f.css",
+    "main.js": "/PortfolioPrincipal/static/js/main.c25771d0.js",
     "static/js/453.1407b060.chunk.js": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js",
     "static/media/github.png": "/PortfolioPrincipal/static/media/github.a2a5f46075431c1099bf.png",
     "static/media/HR-white.png": "/PortfolioPrincipal/static/media/HR-white.d1e9bbbeb078d5979cd3.png",
     "static/media/RookTechIcon.png": "/PortfolioPrincipal/static/media/RookTechIcon.2604772f8673a5853cff.png",
+    "static/media/Search3.png": "/PortfolioPrincipal/static/media/Search3.ab0fef7886c43b4bb2f0.png",
+    "static/media/Search1.png": "/PortfolioPrincipal/static/media/Search1.0e5c5d95a39bb1a5276e.png",
+    "static/media/Search2.png": "/PortfolioPrincipal/static/media/Search2.afecb3623991395c37c2.png",
     "index.html": "/PortfolioPrincipal/index.html",
-    "main.fdd4a848.css.map": "/PortfolioPrincipal/static/css/main.fdd4a848.css.map",
-    "main.1033fdbf.js.map": "/PortfolioPrincipal/static/js/main.1033fdbf.js.map",
+    "main.c239513f.css.map": "/PortfolioPrincipal/static/css/main.c239513f.css.map",
+    "main.c25771d0.js.map": "/PortfolioPrincipal/static/js/main.c25771d0.js.map",
     "453.1407b060.chunk.js.map": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdd4a848.css",
-    "static/js/main.1033fdbf.js"
+    "static/css/main.c239513f.css",
+    "static/js/main.c25771d0.js"
   ]
 }
