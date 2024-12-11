@@ -13,19 +13,17 @@ const Experience = () => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
                 } else {
-                    // Remove a classe quando o item não estiver mais visível
                     entry.target.classList.remove('visible');
                 }
             });
         }, {
-            threshold: 0.2, // Define a porcentagem de visibilidade para ativar a animação
+            threshold: 0.2,
         });
 
         items.forEach(item => {
             observer.observe(item);
         });
 
-        // Cleanup da observação quando o componente desmontar
         return () => {
             items.forEach(item => {
                 observer.unobserve(item);
@@ -38,7 +36,7 @@ const Experience = () => {
             <Navbar />
             
             <section className="timeline">
-                <h1 className='certifications'>Certifications</h1>
+                <h1 className='certifications'>Certificates</h1>
                 
                 <div className="timeline-item">
                     <div className="content">

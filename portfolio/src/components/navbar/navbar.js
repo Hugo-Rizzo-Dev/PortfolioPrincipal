@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HRLogo from "../../images/HR-white.png";
+import HRLogo from "../../images/icons/HR-white.png";
 
 function Navbar() {
   return (
@@ -18,7 +18,7 @@ function Navbar() {
           <Link to="/Experience">Experience</Link>
         </li>
         <li>
-          <Link to="/Works">Works</Link>
+          <Link to="/Projects">Projects</Link>
         </li>
         <li>
           <Link to="/Contact">Contact</Link>

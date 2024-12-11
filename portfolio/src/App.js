@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home.js";
 import About from "./pages/About/About.js";
 import Contact from "./pages/Contact/Contact.js";
 import Experience from "./pages/Experience/Experience.js";
-import Works from "./pages/Works/Works.js";
+import Projects from "./pages/Projects/Projects.js";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Experience" element={<Experience />} />
-          <Route path="/Works" element={<Works />} />
+          <Route path="/Projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>

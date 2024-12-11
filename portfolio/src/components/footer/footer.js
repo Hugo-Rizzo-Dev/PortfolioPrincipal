@@ -1,7 +1,7 @@
 import React from "react";
-import gitHubimg from "../../images/github.png";
-import linkedinImg from "../../images/linkedin.png";
-import RookTechIcon from "../../images/RookTechIcon.png";
+import gitHubimg from "../../images/icons/github.png";
+import linkedinImg from "../../images/icons/linkedin.png";
+import RookTechIcon from "../../images/icons/RookTechIcon.png";
 
 function footer() {
   return (
