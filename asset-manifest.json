@@ -1,24 +1,41 @@
 {
   "files": {
-    "main.css": "/PortfolioPrincipal/static/css/main.136b17a3.css",
-    "main.js": "/PortfolioPrincipal/static/js/main.7dfd1ac1.js",
+    "main.css": "/PortfolioPrincipal/static/css/main.127ee02f.css",
+    "main.js": "/PortfolioPrincipal/static/js/main.d8125fdd.js",
     "static/js/453.1407b060.chunk.js": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js",
+    "static/media/LangoDawg7.png": "/PortfolioPrincipal/static/media/LangoDawg7.3c9785417a7752236c56.png",
+    "static/media/Image 6.jpg": "/PortfolioPrincipal/static/media/Image 6.94480b91eceface617ba.jpg",
+    "static/media/Image 1.jpg": "/PortfolioPrincipal/static/media/Image 1.821035c4df7f9c7ff2a6.jpg",
     "static/media/Fokus3.png": "/PortfolioPrincipal/static/media/Fokus3.dfae2e280f302ec98dad.png",
     "static/media/Fokus2.png": "/PortfolioPrincipal/static/media/Fokus2.f27a603d72149dc455e5.png",
+    "static/media/LangoDawg3.png": "/PortfolioPrincipal/static/media/LangoDawg3.b6e98ed1c41c51360c60.png",
+    "static/media/Image 2.jpg": "/PortfolioPrincipal/static/media/Image 2.d346fffe6e707341d665.jpg",
+    "static/media/LangoDawg1.png": "/PortfolioPrincipal/static/media/LangoDawg1.f2544b278072946806b5.png",
+    "static/media/Image 7.jpg": "/PortfolioPrincipal/static/media/Image 7.d32b730980f4406aced1.jpg",
+    "static/media/Image 3.jpg": "/PortfolioPrincipal/static/media/Image 3.503598221e968da9b6ac.jpg",
     "static/media/Fokus1.png": "/PortfolioPrincipal/static/media/Fokus1.092bc4269b3ed61b8728.png",
+    "static/media/Image 4.jpg": "/PortfolioPrincipal/static/media/Image 4.30aa2ad8fbae1fb537b3.jpg",
+    "static/media/LangoDawg2.png": "/PortfolioPrincipal/static/media/LangoDawg2.7519d61f110fcb1de02d.png",
+    "static/media/Image 8.jpg": "/PortfolioPrincipal/static/media/Image 8.4ecc91849f91a598d8a3.jpg",
+    "static/media/LangoDawg4.png": "/PortfolioPrincipal/static/media/LangoDawg4.4bc52ed84b9442714c99.png",
+    "static/media/Image 5.jpg": "/PortfolioPrincipal/static/media/Image 5.d9b5157af0d229751912.jpg",
     "static/media/github.png": "/PortfolioPrincipal/static/media/github.a2a5f46075431c1099bf.png",
+    "static/media/LangoDawg5.png": "/PortfolioPrincipal/static/media/LangoDawg5.754b7775240353420c12.png",
     "static/media/HR-white.png": "/PortfolioPrincipal/static/media/HR-white.d1e9bbbeb078d5979cd3.png",
     "static/media/RookTechIcon.png": "/PortfolioPrincipal/static/media/RookTechIcon.2604772f8673a5853cff.png",
     "static/media/Search3.png": "/PortfolioPrincipal/static/media/Search3.ab0fef7886c43b4bb2f0.png",
     "static/media/Search1.png": "/PortfolioPrincipal/static/media/Search1.0e5c5d95a39bb1a5276e.png",
     "static/media/Search2.png": "/PortfolioPrincipal/static/media/Search2.afecb3623991395c37c2.png",
+    "static/media/LangoDawg6.png": "/PortfolioPrincipal/static/media/LangoDawg6.2dc3168de3d8a872e06e.png",
+    "static/media/LangoDawg9.png": "/PortfolioPrincipal/static/media/LangoDawg9.a4f8c16ce83e658fc5ae.png",
+    "static/media/LangoDawg8.png": "/PortfolioPrincipal/static/media/LangoDawg8.624e6b54a33930bb82c5.png",
     "index.html": "/PortfolioPrincipal/index.html",
-    "main.136b17a3.css.map": "/PortfolioPrincipal/static/css/main.136b17a3.css.map",
-    "main.7dfd1ac1.js.map": "/PortfolioPrincipal/static/js/main.7dfd1ac1.js.map",
+    "main.127ee02f.css.map": "/PortfolioPrincipal/static/css/main.127ee02f.css.map",
+    "main.d8125fdd.js.map": "/PortfolioPrincipal/static/js/main.d8125fdd.js.map",
     "453.1407b060.chunk.js.map": "/PortfolioPrincipal/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.136b17a3.css",
-    "static/js/main.7dfd1ac1.js"
+    "static/css/main.127ee02f.css",
+    "static/js/main.d8125fdd.js"
   ]
 }
