@@ -599,56 +599,73 @@ span {
   margin-top: 8vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-  padding-left: 100px;
+  gap: 30px;
+  max-width: 1200px;
+  padding: 20px 40px 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 .grid-item {
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
   text-align: center;
-  background-color: #f9f9f9;
-  padding: 8px;
+  background-color: #1b2136;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 10px;
   cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .item-title {
   font-family: "Fira Sans", sans-serif;
-  font-weight: 200;
-  margin-top: 10px;
+  margin-top: 12px;
   font-size: 1.2em;
   font-weight: bold;
+  color: whitesmoke;
 }
 
 .carousel {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #10141f;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .carousel-image {
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
+  object-fit: contain;
 }
 
 .carousel-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
-  padding: 10px;
+  border-radius: 50%;
   cursor: pointer;
   z-index: 1;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .carousel-button.prev {
@@ -661,6 +678,7 @@ span {
 
 .carousel-button:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
 }
 
 .modal-overlay {
@@ -678,8 +696,8 @@ span {
 
 .modal-content {
   position: relative;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 90vw;
+  max-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -687,9 +705,9 @@ span {
 
 .modal-image-wrapper {
   position: relative;
-  width: 1000px;
-  height: 600px;
-  background-color: rgb(58, 58, 58); 
+  width: min(90vw, 1000px);
+  height: min(80vh, 600px);
+  background-color: rgb(58, 58, 58);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -708,12 +726,18 @@ span {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
-  padding: 10px;
+  border-radius: 50%;
   cursor: pointer;
   z-index: 1001;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .modal-button.prev {
@@ -726,6 +750,7 @@ span {
 
 .modal-button:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
 }
 
 
@@ -733,17 +758,41 @@ span {
   position: absolute;
   top: 10px;
   right: 10px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: red;
   color: white;
   border: none;
-  padding: 10px;
   border-radius: 50%;
   font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .modal-close:hover {
   background-color: darkred;
+}
+
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 30px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 20px 20px 40px;
+  }
+
+  .carousel {
+    height: 260px;
+  }
 }
 
 
@@ -777,5 +826,11 @@ span {
 
 .linkProjects{
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
+  transition: color 0.2s ease;
+}
+
+.linkProjects:hover{
+  color: #4da3ff;
+  text-decoration: underline;
 }
